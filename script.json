@@ -1,0 +1,20 @@
+{
+    "BOT INFO": "I’m ShelterShare, a housing assistance helper for St. Lois created during Globalhack VI. The code may be shared in my github repo once the hackathon period is over, but you can send me a tweet @54chi anytime. %[Technical Details](postback:technical_stuff)",
+    "HELLO": "Hello, thank you for reaching out to ShelterShare, your one stop link for your housing needs. How can I assist you Today?\n%[Find a Home](postback:find_home) %[Get directions](postback:from_directions) %[Bot info](postback:bot)  ",
+    "SEND ME A TWEET": "Let's tweet @ GuiaDF so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet GuiaDF](http://bit.ly/guiadf-tweet)",
+    "TECHNICAL DETAILS": "Tech stack includes Smooch.io calling webhooks/apis built on nodeJS running on Heroku. The webhooks calls Google geolocation and mapping services and Uber APIs to provide real time results.\nThis chatbot was built on cloud 9 and uses Firebase as its main back-end. %[Coming Next](postback:coming_soon) \nTo resume, just say \"HELLO\"",
+    "COMING NEXT":"More types of services and types of users...plus additional features like user management, notifications, timed alerts (e.g. accidents, hazards) and analytic services.\nBig data analytics for new opportunities (e.g. where to open new shelters, etc.).\n Improve the NLP (by finishing the integration with wit.ai) and involve humans as needed(through Front APIS). After that...it is a secret ;)\nTo resume, just say \"HELLO\"",
+    "I LOVE YOU": "Thank you?",
+    "APPOINTMENT": "One of our agents will contact you soon at your phone \n",
+    "APPOINTMEN22": "Thank you. One of our agents will contact you soon at your phone \n",
+    "CONNECT ME": "Welcome back!",
+    "BYE": "See you next time!",
+    "THANKS":"Your very welcome!",
+    "REQUEST AN UBER":"Coming soon",
+    "FIND AN ECOBIKE":"Coming soon",
+    "GET DIRECTIONS": "Got it! I need a couple questions answered first:",
+    "FIND A HOME": "Ok, I can help you with that, but first I need a few questions answered: ",
+    "HELP":"Here are a couple things you can try: %[Get Directions](postback:from_directions) %[Bot info](postback:bot)",
+    "TBD":"My creator has not taught me what to do with that yet",
+    "DISCONNECT": "Roger that, see you when I see you. (Just say \"CONNECT ME\"  whenever you are ready)"
+}

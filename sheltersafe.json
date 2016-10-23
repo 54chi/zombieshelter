@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sheltersafe-acc35",
+  "private_key_id": "71e12f0094ecf618a6d41c7b9e446cf63a02bffc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYpzAj0i8K3ObO\n6vqhB2ziH8Wo3hIIDXFC7xSCnkLt0c15mkGv6J9SIVKtBn591qPvM9BtIyRO4Diz\nc59dC7VJA/PlFMNM1K/X2P3DtOlynVNBiIXRpwF1skWoiaLIkqOtvvOETtDxUbx/\nBsCuJQECJm0yifyi+s4/K4VoiJrrZGBZmHtCN1v1rkS205UZdxP/yWbqPUPyjLK9\n1MiUx+VEVUM+VreFs/cxp4PPKn4nWcUhW6DmEAvxuur0YJFQKTq1i8qg0XogAFKY\ncsrUCZxN6V0SnQnW5V0JCzmCOaFaffws4YaGZATPULTVXxyUmIg2j4UUEUvN3HeZ\nNgSJ5YHPAgMBAAECggEAUXp28VHPnU88gl7+yOao/VWjmYGC2IJtsRWG6iSo2RXJ\nJ81qnMRofpPHqwjBM4QwfPpIjXLk6cELsflu2qhXklEpPWMUm+V1CEE0FpEIJrGi\nKQg2A4XCV8gmyF6S2MnFQseIf57Al7D8qe0ZM6T4/x0CfjpEx+p4/GrarliJorKZ\nC3TUPdW9vsuNaeaY62VrMpxNvPvt2iHR0Fwg2LoILEnG0SBLDa6OzMP1eqLQ0VUX\njQgQ6UzTmMmpB0jKOSuZDEE/MbcSnclC3K5HECAMzTfBo++auer9EQwAqIS7QZX2\nOrhsYA7SqgQzO2z3NTq0j0bLEeJ1B35JXuiVVc1nWQKBgQDzCCogV1LgO8WmFBbi\n1YSP4VEzGPr8P90qS9U22IUYGqrdU6JE6eGWami6fj/2u8qgKZkxhSvIugL//mJz\nzEebAclQe/KHdr1hZh0V73/X7RrWV2UY36zkViuCbXQTPBTCbLt9SWzzjMu0fqFS\n2GUr4idN8ZTtsh8WpWhfRz4ikwKBgQDkNq/N/AUx/Flas8Vm+Pu5DzzMJ9Mk/tq9\n90UoYpAhkmJq30yW8QRn09YeE09OWAsm5gCW5Vr+WQPwj1UxGCxtIY3SjkBMcebg\n4+IFzPWSLTiGDIskVSu/e8L1ItIgFvDV8s7UJZ0kggu2tjFVQdNuga3KwNXZffPm\nU08iLT09VQKBgQCo5S6phSZCUSe9kE6LW4mhmBufICgkr5la8JJ/aB+urbG62Il3\nzPYKW27m1CBNrxpVDjO5d2wDNkopb7cp9Hh639XxCgJ1Y+6exqFGAkhdXhj9hoTq\nsV9s2/mmzbwSNfnTWE8/9YwzAdD7YdlpQpuk0KkyAMbYHaZ/TXpoZJFo4wKBgQCC\nVQkKJogBCBEvz8NJD6ETCzS5k3Tuh+38157TdZbC1YsHZgejnHnboguCmZyNLZMQ\n4AIuK0ZQRB4P4IvSwe99U9BfE4Z9If+tJ/gJQAhvNww04i0Ezu9xKAkrXnuKgA+C\n4GxmlCSumOZ/roV2H2XUkpLiXEbFMz17qNBkwFldEQKBgQCQ8gmyoau0RDZu0jVq\nBYS7DAsocPSeVCNqFxH68dClCJhxpNXUNtiXGzuC7eClZPP0Zyoj5QOegMnAKNH1\nhFTM9QgEvdukyYYlJB2CbV4GCQV+8w41H8TwRt9k2F2kClMR3wxesA49UFqBfU9F\nSRF1HZ679vzHdLvkPQwXJ9+WKQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheltersafe@sheltersafe-acc35.iam.gserviceaccount.com",
+  "client_id": "116065347880100544596",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheltersafe%40sheltersafe-acc35.iam.gserviceaccount.com"
+}

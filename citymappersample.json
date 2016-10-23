@@ -1,0 +1,5109 @@
+{
+  "shared": {
+    "labels": [
+      {
+        "label_name": "Time Sensitive",
+        "label_id": "TIME_SENSITIVE"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "SUGGESTED",
+      "name": "Suggested",
+      "journeys": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "multiroute_message_url": "https://citymapper.com/p/multiroutes",
+  "journeys": [
+    {
+      "journey_equivalence_hash": "64e71f60f4c115ff2dc20e503e6a9919",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 2583,
+      "calories": 64,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 1258,
+      "formatted_price": "$4.50",
+      "signature": "{\"duration\": 2583, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_CaminoRealATolucaEscuadron201_NE\", \"mode\": \"transit\", \"route_ids\": [\"DFMicrobusMapatonR1\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 31}, {\"distance\": 1075, \"duration\": 794, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.390303,-99.20208\"}], \"price_pence\": 450, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 930,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "World Trade Center (por Camino Real a Toluca)",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 56,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 129,
+              "coords": [
+                19.378988,
+                -99.246776
+              ],
+              "name": "Avenida Vasco de Quiroga - Puerta Santa Fe",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuertaSantaFe_E"
+            },
+            {
+              "duration_seconds_to_here": 140,
+              "coords": [
+                19.37909,
+                -99.246347
+              ],
+              "name": "Avenida Vasco De Quiroga - General Antonio Rosales",
+              "id": "DFStop_AvenidaVascoDeQuirogaGeneralAntonioRosales_E_1"
+            },
+            {
+              "duration_seconds_to_here": 196,
+              "coords": [
+                19.379899,
+                -99.244394
+              ],
+              "name": "Avenida Vasco de Quiroga - General Antonio Rosales",
+              "id": "DFStop_AvenidaVascoDeQuirogaGeneralAntonioRosales_E"
+            },
+            {
+              "duration_seconds_to_here": 225,
+              "coords": [
+                19.380183,
+                -99.243321
+              ],
+              "name": "Avenida Vasco De Quiroga - Gómez Farías",
+              "id": "DFStop_AvenidaVascoDeQuirogaGomezFarias_E"
+            },
+            {
+              "duration_seconds_to_here": 257,
+              "coords": [
+                19.380547,
+                -99.24212
+              ],
+              "name": "Avenida Vasco de Quiroga - Tlapechico",
+              "id": "DFStop_AvenidaVascoDeQuirogaTlapechico_NE"
+            },
+            {
+              "duration_seconds_to_here": 278,
+              "coords": [
+                19.380911,
+                -99.241433
+              ],
+              "name": "Avenida Vasco de Quiroga - Matamoros",
+              "id": "DFStop_AvenidaVascoDeQuirogaMatamoros_NE"
+            },
+            {
+              "duration_seconds_to_here": 293,
+              "coords": [
+                19.381195,
+                -99.240918
+              ],
+              "name": "Avenida Vasco de Quiroga - Tejocotes",
+              "id": "DFStop_AvenidaVascoDeQuirogaTejocotes_NE"
+            },
+            {
+              "duration_seconds_to_here": 343,
+              "coords": [
+                19.382045,
+                -99.239191
+              ],
+              "name": "Avenida Vasco de Quiroga - Pueblo Nuevo",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuebloNuevo_E"
+            },
+            {
+              "duration_seconds_to_here": 443,
+              "coords": [
+                19.383057,
+                -99.235522
+              ],
+              "name": "Vasco de Quiroga - Cebada",
+              "id": "DFStop_VascoDeQuirogaCebada_E"
+            },
+            {
+              "duration_seconds_to_here": 490,
+              "coords": [
+                19.383533,
+                -99.233762
+              ],
+              "name": "Avenida Vasco de Quiroga - Rubén Dario",
+              "id": "DFStop_AvenidaVascoDeQuirogaRubenDario_E"
+            },
+            {
+              "duration_seconds_to_here": 517,
+              "coords": [
+                19.383583,
+                -99.232711
+              ],
+              "name": "Avenida Vasco de Quiroga - Amado Nervo",
+              "id": "DFStop_AvenidaVascoDeQuirogaAmadoNervo_E"
+            },
+            {
+              "duration_seconds_to_here": 551,
+              "coords": [
+                19.383765,
+                -99.231412
+              ],
+              "name": "Camino A Santa Fe - De La Laja",
+              "id": "DFStop_CaminoASantaFeDeLaLaja_E"
+            },
+            {
+              "duration_seconds_to_here": 591,
+              "coords": [
+                19.38418,
+                -99.229953
+              ],
+              "name": "Camino A Santa Fe - Miguel Alemán",
+              "id": "DFStop_CaminoASantaFeMiguelAleman_E"
+            },
+            {
+              "duration_seconds_to_here": 631,
+              "coords": [
+                19.384585,
+                -99.228473
+              ],
+              "name": "Camino A Santa Fe - Paso De Mono",
+              "id": "DFStop_CaminoASantaFePasoDeMono_E"
+            },
+            {
+              "duration_seconds_to_here": 673,
+              "coords": [
+                19.385152,
+                -99.226949
+              ],
+              "name": "Camino a Santa Fe - Santa Isabel",
+              "id": "DFStop_CaminoASantaFeSantaIsabel_N"
+            },
+            {
+              "duration_seconds_to_here": 733,
+              "coords": [
+                19.385901,
+                -99.224782
+              ],
+              "name": "Camino a Santa Fe - Unidad Habitacional Belén",
+              "id": "DFStop_CaminoASantaFeUnidadHabitacionalBelen_E"
+            },
+            {
+              "duration_seconds_to_here": 733,
+              "coords": [
+                19.385901,
+                -99.224782
+              ],
+              "name": "Camino a Santa Fe - Unidad Habitacional Belén",
+              "id": "DFStop_CaminoASantaFeUnidadHabitacionalBelen_E"
+            },
+            {
+              "duration_seconds_to_here": 792,
+              "coords": [
+                19.386781,
+                -99.222679
+              ],
+              "name": "Avenida Camino Real a Toluca - Bodega Aurrera",
+              "id": "DFStop_AvenidaCaminoRealATolucaBodegaAurrera_W"
+            },
+            {
+              "duration_seconds_to_here": 908,
+              "coords": [
+                19.386579,
+                -99.218237
+              ],
+              "name": "Camino a Santa Fe - Tlaxcaltecas",
+              "id": "CMStop_camino_a_santa_fe_tlaxcaltecas"
+            },
+            {
+              "duration_seconds_to_here": 975,
+              "coords": [
+                19.387429,
+                -99.215791
+              ],
+              "name": "Camino a Santa Fe - Queretanos",
+              "id": "DFStop_CaminoASantaFeQueretanos_E"
+            },
+            {
+              "duration_seconds_to_here": 1035,
+              "coords": [
+                19.388239,
+                -99.213667
+              ],
+              "name": "Camino a Santa Fe - Chilenos",
+              "id": "DFStop_CaminoASantaFeChilenos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1067,
+              "coords": [
+                19.388694,
+                -99.212519
+              ],
+              "name": "Camino a Santa Fe - Uruguayos",
+              "id": "DFStop_CaminoASantaFeUruguayos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1094,
+              "coords": [
+                19.389079,
+                -99.211553
+              ],
+              "name": "Camino a Santa Fe - Costarricenses",
+              "id": "DFStop_CaminoASantaFeCostarricenses_NE"
+            },
+            {
+              "duration_seconds_to_here": 1128,
+              "coords": [
+                19.389433,
+                -99.210314
+              ],
+              "name": "Avenida Camino Real a Toluca - Alemanes",
+              "id": "CMStop_avenida_camino_real_a_toluca_alemanes"
+            },
+            {
+              "duration_seconds_to_here": 1172,
+              "coords": [
+                19.390273,
+                -99.20886
+              ],
+              "name": "Camino a Santa Fe - Cristo Rey",
+              "id": "DFStop_CaminoASantaFeCristoRey_S"
+            },
+            {
+              "duration_seconds_to_here": 1211,
+              "coords": [
+                19.390546,
+                -99.207358
+              ],
+              "name": "Camino a Santa Fe - Turineses",
+              "id": "DFStop_CaminoASantaFeTurineses_E"
+            },
+            {
+              "duration_seconds_to_here": 1257,
+              "coords": [
+                19.390096,
+                -99.205663
+              ],
+              "name": "Camino a Santa Fe - Primero de Noviembre",
+              "id": "CMStop_camino_a_santa_fe_primero_de_noviembre"
+            },
+            {
+              "duration_seconds_to_here": 1316,
+              "coords": [
+                19.389817,
+                -99.203399
+              ],
+              "name": "Avenida Camino Real a Toluca - 15 de Noviembre",
+              "id": "CMStop_avenida_camino_real_a_toluca_15_de_noviembre"
+            },
+            {
+              "duration_seconds_to_here": 1353,
+              "coords": [
+                19.390303,
+                -99.20208
+              ],
+              "name": "Camino Real a Toluca - Escuadrón 201",
+              "id": "DFStop_CaminoRealATolucaEscuadron201_NE"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:50:20-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.378988,
+              -99.246776
+            ],
+            [
+              19.37909,
+              -99.246347
+            ],
+            [
+              19.379899,
+              -99.244394
+            ],
+            [
+              19.380183,
+              -99.243321
+            ],
+            [
+              19.380547,
+              -99.24212
+            ],
+            [
+              19.380911,
+              -99.241433
+            ],
+            [
+              19.381195,
+              -99.240918
+            ],
+            [
+              19.382045,
+              -99.239191
+            ],
+            [
+              19.383057,
+              -99.235522
+            ],
+            [
+              19.383533,
+              -99.233762
+            ],
+            [
+              19.383583,
+              -99.232711
+            ],
+            [
+              19.383765,
+              -99.231412
+            ],
+            [
+              19.38418,
+              -99.229953
+            ],
+            [
+              19.384585,
+              -99.228473
+            ],
+            [
+              19.385152,
+              -99.226949
+            ],
+            [
+              19.385901,
+              -99.224782
+            ],
+            [
+              19.385901,
+              -99.224782
+            ],
+            [
+              19.386781,
+              -99.222679
+            ],
+            [
+              19.386579,
+              -99.218237
+            ],
+            [
+              19.387429,
+              -99.215791
+            ],
+            [
+              19.388239,
+              -99.213667
+            ],
+            [
+              19.388694,
+              -99.212519
+            ],
+            [
+              19.389079,
+              -99.211553
+            ],
+            [
+              19.389433,
+              -99.210314
+            ],
+            [
+              19.390273,
+              -99.20886
+            ],
+            [
+              19.390546,
+              -99.207358
+            ],
+            [
+              19.390096,
+              -99.205663
+            ],
+            [
+              19.389817,
+              -99.203399
+            ],
+            [
+              19.390303,
+              -99.20208
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 900,
+            "duration_seconds": 1353
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "DFMicrobusMapatonR1"
+            }
+          ],
+          "departure_time": "2016-07-28T12:27:47-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:03:34-05:00",
+          "shape": [
+            [
+              19.390303,
+              -99.20208
+            ],
+            [
+              19.390304,
+              -99.202078
+            ],
+            [
+              19.390223,
+              -99.202019
+            ],
+            [
+              19.389897,
+              -99.201773
+            ],
+            [
+              19.389849,
+              -99.201736
+            ],
+            [
+              19.389415,
+              -99.201418
+            ],
+            [
+              19.389339,
+              -99.201363
+            ],
+            [
+              19.388897,
+              -99.201042
+            ],
+            [
+              19.388628,
+              -99.200752
+            ],
+            [
+              19.388391,
+              -99.200584
+            ],
+            [
+              19.38744,
+              -99.199905
+            ],
+            [
+              19.387212,
+              -99.199749
+            ],
+            [
+              19.38714,
+              -99.199699
+            ],
+            [
+              19.38677,
+              -99.199425
+            ],
+            [
+              19.386536,
+              -99.199326
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 794,
+          "distance_meters": 1075,
+          "departure_time": "2016-07-28T12:50:20-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "4303750289cd795999fdc7d70ab18a73",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3285,
+      "labels": [
+        "TIME_SENSITIVE"
+      ],
+      "calories": 64,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 1258,
+      "formatted_price": "$2.00",
+      "signature": "{\"duration\": 3285, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_CaminoRealATolucaEscuadron201_NE\", \"mode\": \"transit\", \"route_ids\": [\"RTPBus118\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 28}, {\"distance\": 1075, \"duration\": 794, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.390303,-99.20208\"}], \"price_pence\": 200, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 930,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Tacubaya (Cartagena)",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 56,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 145,
+              "coords": [
+                19.378988,
+                -99.246776
+              ],
+              "name": "Avenida Vasco de Quiroga - Puerta Santa Fe",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuertaSantaFe_E"
+            },
+            {
+              "duration_seconds_to_here": 182,
+              "coords": [
+                19.37909,
+                -99.246347
+              ],
+              "name": "Avenida Vasco De Quiroga - General Antonio Rosales",
+              "id": "DFStop_AvenidaVascoDeQuirogaGeneralAntonioRosales_E_1"
+            },
+            {
+              "duration_seconds_to_here": 266,
+              "coords": [
+                19.380183,
+                -99.243321
+              ],
+              "name": "Avenida Vasco De Quiroga - Gómez Farías",
+              "id": "DFStop_AvenidaVascoDeQuirogaGomezFarias_E"
+            },
+            {
+              "duration_seconds_to_here": 317,
+              "coords": [
+                19.380547,
+                -99.24212
+              ],
+              "name": "Avenida Vasco de Quiroga - Tlapechico",
+              "id": "DFStop_AvenidaVascoDeQuirogaTlapechico_NE"
+            },
+            {
+              "duration_seconds_to_here": 360,
+              "coords": [
+                19.380911,
+                -99.241433
+              ],
+              "name": "Avenida Vasco de Quiroga - Matamoros",
+              "id": "DFStop_AvenidaVascoDeQuirogaMatamoros_NE"
+            },
+            {
+              "duration_seconds_to_here": 409,
+              "coords": [
+                19.381195,
+                -99.240918
+              ],
+              "name": "Avenida Vasco de Quiroga - Tejocotes",
+              "id": "DFStop_AvenidaVascoDeQuirogaTejocotes_NE"
+            },
+            {
+              "duration_seconds_to_here": 467,
+              "coords": [
+                19.38166,
+                -99.240146
+              ],
+              "name": "Avenida Vasco de Quiroga - Privada La Joya",
+              "id": "DFStop_AvenidaVascoDeQuirogaPrivadaLaJoya_NE"
+            },
+            {
+              "duration_seconds_to_here": 555,
+              "coords": [
+                19.382045,
+                -99.239191
+              ],
+              "name": "Avenida Vasco de Quiroga - Pueblo Nuevo",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuebloNuevo_E"
+            },
+            {
+              "duration_seconds_to_here": 618,
+              "coords": [
+                19.383057,
+                -99.236112
+              ],
+              "name": "Avenida Vasco de Quiroga - Violeta",
+              "id": "DFStop_AvenidaVascoDeQuirogaVioleta_E"
+            },
+            {
+              "duration_seconds_to_here": 668,
+              "coords": [
+                19.383057,
+                -99.235522
+              ],
+              "name": "Vasco de Quiroga - Cebada",
+              "id": "DFStop_VascoDeQuirogaCebada_E"
+            },
+            {
+              "duration_seconds_to_here": 734,
+              "coords": [
+                19.383533,
+                -99.233762
+              ],
+              "name": "Avenida Vasco de Quiroga - Rubén Dario",
+              "id": "DFStop_AvenidaVascoDeQuirogaRubenDario_E"
+            },
+            {
+              "duration_seconds_to_here": 773,
+              "coords": [
+                19.383603,
+                -99.233183
+              ],
+              "name": "Avenida Vasco de Quiroga - Paso Chabacano",
+              "id": "DFStop_AvenidaVascoDeQuirogaPasoChabacano_E"
+            },
+            {
+              "duration_seconds_to_here": 813,
+              "coords": [
+                19.383583,
+                -99.232711
+              ],
+              "name": "Avenida Vasco de Quiroga - Amado Nervo",
+              "id": "DFStop_AvenidaVascoDeQuirogaAmadoNervo_E"
+            },
+            {
+              "duration_seconds_to_here": 869,
+              "coords": [
+                19.383765,
+                -99.231412
+              ],
+              "name": "Camino A Santa Fe - De La Laja",
+              "id": "DFStop_CaminoASantaFeDeLaLaja_E"
+            },
+            {
+              "duration_seconds_to_here": 948,
+              "coords": [
+                19.384585,
+                -99.228473
+              ],
+              "name": "Camino A Santa Fe - Paso De Mono",
+              "id": "DFStop_CaminoASantaFePasoDeMono_E"
+            },
+            {
+              "duration_seconds_to_here": 1006,
+              "coords": [
+                19.385152,
+                -99.226949
+              ],
+              "name": "Camino a Santa Fe - Santa Isabel",
+              "id": "DFStop_CaminoASantaFeSantaIsabel_N"
+            },
+            {
+              "duration_seconds_to_here": 1073,
+              "coords": [
+                19.385901,
+                -99.224782
+              ],
+              "name": "Camino a Santa Fe - Unidad Habitacional Belén",
+              "id": "DFStop_CaminoASantaFeUnidadHabitacionalBelen_E"
+            },
+            {
+              "duration_seconds_to_here": 1218,
+              "coords": [
+                19.38668,
+                -99.218259
+              ],
+              "name": "Camino a Santa Fe - Tlaxcaltecas",
+              "id": "DFStop_CaminoASantaFeTlaxcaltecas_N"
+            },
+            {
+              "duration_seconds_to_here": 1294,
+              "coords": [
+                19.387429,
+                -99.215791
+              ],
+              "name": "Camino a Santa Fe - Queretanos",
+              "id": "DFStop_CaminoASantaFeQueretanos_E"
+            },
+            {
+              "duration_seconds_to_here": 1365,
+              "coords": [
+                19.388239,
+                -99.213667
+              ],
+              "name": "Camino a Santa Fe - Chilenos",
+              "id": "DFStop_CaminoASantaFeChilenos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1415,
+              "coords": [
+                19.388694,
+                -99.212519
+              ],
+              "name": "Camino a Santa Fe - Uruguayos",
+              "id": "DFStop_CaminoASantaFeUruguayos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1462,
+              "coords": [
+                19.389079,
+                -99.211553
+              ],
+              "name": "Camino a Santa Fe - Costarricenses",
+              "id": "DFStop_CaminoASantaFeCostarricenses_NE"
+            },
+            {
+              "duration_seconds_to_here": 1534,
+              "coords": [
+                19.390273,
+                -99.20886
+              ],
+              "name": "Camino a Santa Fe - Cristo Rey",
+              "id": "DFStop_CaminoASantaFeCristoRey_S"
+            },
+            {
+              "duration_seconds_to_here": 1605,
+              "coords": [
+                19.390546,
+                -99.207358
+              ],
+              "name": "Camino a Santa Fe - Turineses",
+              "id": "DFStop_CaminoASantaFeTurineses_E"
+            },
+            {
+              "duration_seconds_to_here": 1658,
+              "coords": [
+                19.390162,
+                -99.205631
+              ],
+              "name": "Camino a Santa Fe - Primero de Noviembre",
+              "id": "DFStop_CaminoASantaFePrimeroDeNoviembre_S"
+            },
+            {
+              "duration_seconds_to_here": 1755,
+              "coords": [
+                19.390303,
+                -99.20208
+              ],
+              "name": "Camino Real a Toluca - Escuadrón 201",
+              "id": "DFStop_CaminoRealATolucaEscuadron201_NE"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:14:45-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.377605,
+              -99.251515
+            ],
+            [
+              19.37763,
+              -99.25145
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.3784,
+              -99.24895
+            ],
+            [
+              19.37821,
+              -99.24847
+            ],
+            [
+              19.37837,
+              -99.24817
+            ],
+            [
+              19.37874,
+              -99.24803
+            ],
+            [
+              19.37899,
+              -99.24678
+            ],
+            [
+              19.379199,
+              -99.246417
+            ],
+            [
+              19.37926,
+              -99.24631
+            ],
+            [
+              19.37982,
+              -99.2448
+            ],
+            [
+              19.380226,
+              -99.243334
+            ],
+            [
+              19.38028,
+              -99.24314
+            ],
+            [
+              19.380631,
+              -99.242154
+            ],
+            [
+              19.38065,
+              -99.2421
+            ],
+            [
+              19.380909,
+              -99.241432
+            ],
+            [
+              19.38119,
+              -99.24092
+            ],
+            [
+              19.38166,
+              -99.24015
+            ],
+            [
+              19.38204,
+              -99.23919
+            ],
+            [
+              19.383059,
+              -99.236113
+            ],
+            [
+              19.38306,
+              -99.235522
+            ],
+            [
+              19.38353,
+              -99.233761
+            ],
+            [
+              19.3836,
+              -99.233183
+            ],
+            [
+              19.383689,
+              -99.232735
+            ],
+            [
+              19.38384,
+              -99.23198
+            ],
+            [
+              19.383697,
+              -99.231432
+            ],
+            [
+              19.38367,
+              -99.23133
+            ],
+            [
+              19.38465,
+              -99.228498
+            ],
+            [
+              19.38466,
+              -99.22847
+            ],
+            [
+              19.38515,
+              -99.22695
+            ],
+            [
+              19.38595,
+              -99.22482
+            ],
+            [
+              19.38734,
+              -99.22112
+            ],
+            [
+              19.38727,
+              -99.22
+            ],
+            [
+              19.3866,
+              -99.21878
+            ],
+            [
+              19.38668,
+              -99.21826
+            ],
+            [
+              19.38743,
+              -99.215791
+            ],
+            [
+              19.38824,
+              -99.21367
+            ],
+            [
+              19.38879,
+              -99.21264
+            ],
+            [
+              19.389127,
+              -99.21157
+            ],
+            [
+              19.39025,
+              -99.20888
+            ],
+            [
+              19.39055,
+              -99.20736
+            ],
+            [
+              19.39054,
+              -99.20665
+            ],
+            [
+              19.390181,
+              -99.205623
+            ],
+            [
+              19.38966,
+              -99.20406
+            ],
+            [
+              19.390401,
+              -99.202122
+            ],
+            [
+              19.390303,
+              -99.20208
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 2280,
+            "duration_seconds": 1755
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "118",
+              "color": "#f27b0d",
+              "ui_color": "#f27b0d",
+              "brand_id": "RTPBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPBus118"
+            }
+          ],
+          "departure_time": "2016-07-28T12:45:30-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:27:59-05:00",
+          "shape": [
+            [
+              19.390303,
+              -99.20208
+            ],
+            [
+              19.390304,
+              -99.202078
+            ],
+            [
+              19.390223,
+              -99.202019
+            ],
+            [
+              19.389897,
+              -99.201773
+            ],
+            [
+              19.389849,
+              -99.201736
+            ],
+            [
+              19.389415,
+              -99.201418
+            ],
+            [
+              19.389339,
+              -99.201363
+            ],
+            [
+              19.388897,
+              -99.201042
+            ],
+            [
+              19.388628,
+              -99.200752
+            ],
+            [
+              19.388391,
+              -99.200584
+            ],
+            [
+              19.38744,
+              -99.199905
+            ],
+            [
+              19.387212,
+              -99.199749
+            ],
+            [
+              19.38714,
+              -99.199699
+            ],
+            [
+              19.38677,
+              -99.199425
+            ],
+            [
+              19.386536,
+              -99.199326
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 794,
+          "distance_meters": 1075,
+          "departure_time": "2016-07-28T13:14:45-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "73fc05acfa770145912469baf63707c0",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3315,
+      "labels": [
+        "TIME_SENSITIVE"
+      ],
+      "calories": 64,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 1258,
+      "formatted_price": "$2.00",
+      "signature": "{\"duration\": 3315, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_CaminoRealATolucaEscuadron201_NE\", \"mode\": \"transit\", \"route_ids\": [\"RTPBus115\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 29}, {\"distance\": 1075, \"duration\": 794, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.390303,-99.20208\"}], \"price_pence\": 200, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 930,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Tacubaya Nocturno",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 57,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 145,
+              "coords": [
+                19.378988,
+                -99.246776
+              ],
+              "name": "Avenida Vasco de Quiroga - Puerta Santa Fe",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuertaSantaFe_E"
+            },
+            {
+              "duration_seconds_to_here": 220,
+              "coords": [
+                19.379899,
+                -99.244394
+              ],
+              "name": "Avenida Vasco de Quiroga - General Antonio Rosales",
+              "id": "DFStop_AvenidaVascoDeQuirogaGeneralAntonioRosales_E"
+            },
+            {
+              "duration_seconds_to_here": 268,
+              "coords": [
+                19.380183,
+                -99.243321
+              ],
+              "name": "Avenida Vasco De Quiroga - Gómez Farías",
+              "id": "DFStop_AvenidaVascoDeQuirogaGomezFarias_E"
+            },
+            {
+              "duration_seconds_to_here": 318,
+              "coords": [
+                19.380547,
+                -99.24212
+              ],
+              "name": "Avenida Vasco de Quiroga - Tlapechico",
+              "id": "DFStop_AvenidaVascoDeQuirogaTlapechico_NE"
+            },
+            {
+              "duration_seconds_to_here": 361,
+              "coords": [
+                19.380911,
+                -99.241433
+              ],
+              "name": "Avenida Vasco de Quiroga - Matamoros",
+              "id": "DFStop_AvenidaVascoDeQuirogaMatamoros_NE"
+            },
+            {
+              "duration_seconds_to_here": 410,
+              "coords": [
+                19.381195,
+                -99.240918
+              ],
+              "name": "Avenida Vasco de Quiroga - Tejocotes",
+              "id": "DFStop_AvenidaVascoDeQuirogaTejocotes_NE"
+            },
+            {
+              "duration_seconds_to_here": 469,
+              "coords": [
+                19.38166,
+                -99.240146
+              ],
+              "name": "Avenida Vasco de Quiroga - Privada La Joya",
+              "id": "DFStop_AvenidaVascoDeQuirogaPrivadaLaJoya_NE"
+            },
+            {
+              "duration_seconds_to_here": 556,
+              "coords": [
+                19.382045,
+                -99.239191
+              ],
+              "name": "Avenida Vasco de Quiroga - Pueblo Nuevo",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuebloNuevo_E"
+            },
+            {
+              "duration_seconds_to_here": 620,
+              "coords": [
+                19.383057,
+                -99.236112
+              ],
+              "name": "Avenida Vasco de Quiroga - Violeta",
+              "id": "DFStop_AvenidaVascoDeQuirogaVioleta_E"
+            },
+            {
+              "duration_seconds_to_here": 669,
+              "coords": [
+                19.383057,
+                -99.235522
+              ],
+              "name": "Vasco de Quiroga - Cebada",
+              "id": "DFStop_VascoDeQuirogaCebada_E"
+            },
+            {
+              "duration_seconds_to_here": 735,
+              "coords": [
+                19.383533,
+                -99.233762
+              ],
+              "name": "Avenida Vasco de Quiroga - Rubén Dario",
+              "id": "DFStop_AvenidaVascoDeQuirogaRubenDario_E"
+            },
+            {
+              "duration_seconds_to_here": 775,
+              "coords": [
+                19.383603,
+                -99.233183
+              ],
+              "name": "Avenida Vasco de Quiroga - Paso Chabacano",
+              "id": "DFStop_AvenidaVascoDeQuirogaPasoChabacano_E"
+            },
+            {
+              "duration_seconds_to_here": 814,
+              "coords": [
+                19.383583,
+                -99.232711
+              ],
+              "name": "Avenida Vasco de Quiroga - Amado Nervo",
+              "id": "DFStop_AvenidaVascoDeQuirogaAmadoNervo_E"
+            },
+            {
+              "duration_seconds_to_here": 871,
+              "coords": [
+                19.383765,
+                -99.231412
+              ],
+              "name": "Camino A Santa Fe - De La Laja",
+              "id": "DFStop_CaminoASantaFeDeLaLaja_E"
+            },
+            {
+              "duration_seconds_to_here": 925,
+              "coords": [
+                19.38418,
+                -99.229953
+              ],
+              "name": "Camino A Santa Fe - Miguel Alemán",
+              "id": "DFStop_CaminoASantaFeMiguelAleman_E"
+            },
+            {
+              "duration_seconds_to_here": 979,
+              "coords": [
+                19.384585,
+                -99.228473
+              ],
+              "name": "Camino A Santa Fe - Paso De Mono",
+              "id": "DFStop_CaminoASantaFePasoDeMono_E"
+            },
+            {
+              "duration_seconds_to_here": 1036,
+              "coords": [
+                19.385152,
+                -99.226949
+              ],
+              "name": "Camino a Santa Fe - Santa Isabel",
+              "id": "DFStop_CaminoASantaFeSantaIsabel_N"
+            },
+            {
+              "duration_seconds_to_here": 1103,
+              "coords": [
+                19.385901,
+                -99.224782
+              ],
+              "name": "Camino a Santa Fe - Unidad Habitacional Belén",
+              "id": "DFStop_CaminoASantaFeUnidadHabitacionalBelen_E"
+            },
+            {
+              "duration_seconds_to_here": 1249,
+              "coords": [
+                19.38668,
+                -99.218259
+              ],
+              "name": "Camino a Santa Fe - Tlaxcaltecas",
+              "id": "DFStop_CaminoASantaFeTlaxcaltecas_N"
+            },
+            {
+              "duration_seconds_to_here": 1324,
+              "coords": [
+                19.387429,
+                -99.215791
+              ],
+              "name": "Camino a Santa Fe - Queretanos",
+              "id": "DFStop_CaminoASantaFeQueretanos_E"
+            },
+            {
+              "duration_seconds_to_here": 1395,
+              "coords": [
+                19.388239,
+                -99.213667
+              ],
+              "name": "Camino a Santa Fe - Chilenos",
+              "id": "DFStop_CaminoASantaFeChilenos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1445,
+              "coords": [
+                19.388694,
+                -99.212519
+              ],
+              "name": "Camino a Santa Fe - Uruguayos",
+              "id": "DFStop_CaminoASantaFeUruguayos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1492,
+              "coords": [
+                19.389079,
+                -99.211553
+              ],
+              "name": "Camino a Santa Fe - Costarricenses",
+              "id": "DFStop_CaminoASantaFeCostarricenses_NE"
+            },
+            {
+              "duration_seconds_to_here": 1564,
+              "coords": [
+                19.390273,
+                -99.20886
+              ],
+              "name": "Camino a Santa Fe - Cristo Rey",
+              "id": "DFStop_CaminoASantaFeCristoRey_S"
+            },
+            {
+              "duration_seconds_to_here": 1635,
+              "coords": [
+                19.390546,
+                -99.207358
+              ],
+              "name": "Camino a Santa Fe - Turineses",
+              "id": "DFStop_CaminoASantaFeTurineses_E"
+            },
+            {
+              "duration_seconds_to_here": 1688,
+              "coords": [
+                19.390162,
+                -99.205631
+              ],
+              "name": "Camino a Santa Fe - Primero de Noviembre",
+              "id": "DFStop_CaminoASantaFePrimeroDeNoviembre_S"
+            },
+            {
+              "duration_seconds_to_here": 1785,
+              "coords": [
+                19.390303,
+                -99.20208
+              ],
+              "name": "Camino Real a Toluca - Escuadrón 201",
+              "id": "DFStop_CaminoRealATolucaEscuadron201_NE"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:10:33-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.377608,
+              -99.251512
+            ],
+            [
+              19.37763,
+              -99.25145
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.37841,
+              -99.24913
+            ],
+            [
+              19.37822,
+              -99.24854
+            ],
+            [
+              19.37837,
+              -99.24817
+            ],
+            [
+              19.37877,
+              -99.24805
+            ],
+            [
+              19.37905,
+              -99.24681
+            ],
+            [
+              19.37963,
+              -99.24562
+            ],
+            [
+              19.379899,
+              -99.244394
+            ],
+            [
+              19.380043,
+              -99.2433
+            ],
+            [
+              19.38005,
+              -99.24325
+            ],
+            [
+              19.380549,
+              -99.242121
+            ],
+            [
+              19.380909,
+              -99.241432
+            ],
+            [
+              19.38119,
+              -99.24092
+            ],
+            [
+              19.38166,
+              -99.24015
+            ],
+            [
+              19.38204,
+              -99.23919
+            ],
+            [
+              19.383059,
+              -99.236113
+            ],
+            [
+              19.38306,
+              -99.235522
+            ],
+            [
+              19.38353,
+              -99.233761
+            ],
+            [
+              19.3836,
+              -99.233183
+            ],
+            [
+              19.38358,
+              -99.232711
+            ],
+            [
+              19.38363,
+              -99.23202
+            ],
+            [
+              19.383666,
+              -99.231406
+            ],
+            [
+              19.38367,
+              -99.23133
+            ],
+            [
+              19.384037,
+              -99.229911
+            ],
+            [
+              19.384657,
+              -99.228509
+            ],
+            [
+              19.38467,
+              -99.22848
+            ],
+            [
+              19.38515,
+              -99.22695
+            ],
+            [
+              19.38595,
+              -99.22482
+            ],
+            [
+              19.3874,
+              -99.22099
+            ],
+            [
+              19.38728,
+              -99.22014
+            ],
+            [
+              19.38685,
+              -99.2192
+            ],
+            [
+              19.38667,
+              -99.21873
+            ],
+            [
+              19.38668,
+              -99.21826
+            ],
+            [
+              19.38743,
+              -99.215791
+            ],
+            [
+              19.38824,
+              -99.21367
+            ],
+            [
+              19.38879,
+              -99.21264
+            ],
+            [
+              19.389127,
+              -99.21157
+            ],
+            [
+              19.39018,
+              -99.20884
+            ],
+            [
+              19.390611,
+              -99.20738
+            ],
+            [
+              19.39062,
+              -99.20735
+            ],
+            [
+              19.3905,
+              -99.20651
+            ],
+            [
+              19.390138,
+              -99.205642
+            ],
+            [
+              19.39012,
+              -99.2056
+            ],
+            [
+              19.38968,
+              -99.20421
+            ],
+            [
+              19.390354,
+              -99.202098
+            ],
+            [
+              19.390303,
+              -99.20208
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 2340,
+            "duration_seconds": 1785
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "115",
+              "color": "#f27b0d",
+              "ui_color": "#f27b0d",
+              "brand_id": "RTPBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPBus115"
+            }
+          ],
+          "departure_time": "2016-07-28T12:40:48-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:23:47-05:00",
+          "shape": [
+            [
+              19.390303,
+              -99.20208
+            ],
+            [
+              19.390304,
+              -99.202078
+            ],
+            [
+              19.390223,
+              -99.202019
+            ],
+            [
+              19.389897,
+              -99.201773
+            ],
+            [
+              19.389849,
+              -99.201736
+            ],
+            [
+              19.389415,
+              -99.201418
+            ],
+            [
+              19.389339,
+              -99.201363
+            ],
+            [
+              19.388897,
+              -99.201042
+            ],
+            [
+              19.388628,
+              -99.200752
+            ],
+            [
+              19.388391,
+              -99.200584
+            ],
+            [
+              19.38744,
+              -99.199905
+            ],
+            [
+              19.387212,
+              -99.199749
+            ],
+            [
+              19.38714,
+              -99.199699
+            ],
+            [
+              19.38677,
+              -99.199425
+            ],
+            [
+              19.386536,
+              -99.199326
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 794,
+          "distance_meters": 1075,
+          "departure_time": "2016-07-28T13:10:33-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "ce8840224061e1733cbbc8930f395431",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3440,
+      "calories": 72,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 1388,
+      "formatted_price": "$4.50",
+      "signature": "{\"duration\": 3440, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"CMStop_avenida_camino_real_a_toluca_15_de_noviembre\", \"mode\": \"transit\", \"route_ids\": [\"CM_DFMicrobus_camion_5\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 25}, {\"distance\": 1205, \"duration\": 915, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.389817,-99.203399\"}], \"price_pence\": 450, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 1051,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Tacubaya",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 93,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 214,
+              "coords": [
+                19.378988,
+                -99.246776
+              ],
+              "name": "Avenida Vasco de Quiroga - Puerta Santa Fe",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuertaSantaFe_E"
+            },
+            {
+              "duration_seconds_to_here": 326,
+              "coords": [
+                19.379899,
+                -99.244394
+              ],
+              "name": "Avenida Vasco de Quiroga - General Antonio Rosales",
+              "id": "DFStop_AvenidaVascoDeQuirogaGeneralAntonioRosales_E"
+            },
+            {
+              "duration_seconds_to_here": 374,
+              "coords": [
+                19.380183,
+                -99.243321
+              ],
+              "name": "Avenida Vasco De Quiroga - Gómez Farías",
+              "id": "DFStop_AvenidaVascoDeQuirogaGomezFarias_E"
+            },
+            {
+              "duration_seconds_to_here": 428,
+              "coords": [
+                19.380547,
+                -99.24212
+              ],
+              "name": "Avenida Vasco de Quiroga - Tlapechico",
+              "id": "DFStop_AvenidaVascoDeQuirogaTlapechico_NE"
+            },
+            {
+              "duration_seconds_to_here": 462,
+              "coords": [
+                19.380911,
+                -99.241433
+              ],
+              "name": "Avenida Vasco de Quiroga - Matamoros",
+              "id": "DFStop_AvenidaVascoDeQuirogaMatamoros_NE"
+            },
+            {
+              "duration_seconds_to_here": 488,
+              "coords": [
+                19.381195,
+                -99.240918
+              ],
+              "name": "Avenida Vasco de Quiroga - Tejocotes",
+              "id": "DFStop_AvenidaVascoDeQuirogaTejocotes_NE"
+            },
+            {
+              "duration_seconds_to_here": 528,
+              "coords": [
+                19.38166,
+                -99.240146
+              ],
+              "name": "Avenida Vasco de Quiroga - Privada La Joya",
+              "id": "DFStop_AvenidaVascoDeQuirogaPrivadaLaJoya_NE"
+            },
+            {
+              "duration_seconds_to_here": 573,
+              "coords": [
+                19.382045,
+                -99.239191
+              ],
+              "name": "Avenida Vasco de Quiroga - Pueblo Nuevo",
+              "id": "DFStop_AvenidaVascoDeQuirogaPuebloNuevo_E"
+            },
+            {
+              "duration_seconds_to_here": 738,
+              "coords": [
+                19.383057,
+                -99.235522
+              ],
+              "name": "Vasco de Quiroga - Cebada",
+              "id": "DFStop_VascoDeQuirogaCebada_E"
+            },
+            {
+              "duration_seconds_to_here": 862,
+              "coords": [
+                19.383583,
+                -99.232711
+              ],
+              "name": "Avenida Vasco de Quiroga - Amado Nervo",
+              "id": "DFStop_AvenidaVascoDeQuirogaAmadoNervo_E"
+            },
+            {
+              "duration_seconds_to_here": 919,
+              "coords": [
+                19.383765,
+                -99.231412
+              ],
+              "name": "Camino A Santa Fe - De La Laja",
+              "id": "DFStop_CaminoASantaFeDeLaLaja_E"
+            },
+            {
+              "duration_seconds_to_here": 985,
+              "coords": [
+                19.38418,
+                -99.229953
+              ],
+              "name": "Camino A Santa Fe - Miguel Alemán",
+              "id": "DFStop_CaminoASantaFeMiguelAleman_E"
+            },
+            {
+              "duration_seconds_to_here": 1052,
+              "coords": [
+                19.384585,
+                -99.228473
+              ],
+              "name": "Camino A Santa Fe - Paso De Mono",
+              "id": "DFStop_CaminoASantaFePasoDeMono_E"
+            },
+            {
+              "duration_seconds_to_here": 1122,
+              "coords": [
+                19.385152,
+                -99.226949
+              ],
+              "name": "Camino a Santa Fe - Santa Isabel",
+              "id": "DFStop_CaminoASantaFeSantaIsabel_N"
+            },
+            {
+              "duration_seconds_to_here": 1222,
+              "coords": [
+                19.385901,
+                -99.224782
+              ],
+              "name": "Camino a Santa Fe - Unidad Habitacional Belén",
+              "id": "DFStop_CaminoASantaFeUnidadHabitacionalBelen_E"
+            },
+            {
+              "duration_seconds_to_here": 1322,
+              "coords": [
+                19.386781,
+                -99.222679
+              ],
+              "name": "Avenida Camino Real a Toluca - Bodega Aurrera",
+              "id": "DFStop_AvenidaCaminoRealATolucaBodegaAurrera_W"
+            },
+            {
+              "duration_seconds_to_here": 1621,
+              "coords": [
+                19.387429,
+                -99.215791
+              ],
+              "name": "Camino a Santa Fe - Queretanos",
+              "id": "DFStop_CaminoASantaFeQueretanos_E"
+            },
+            {
+              "duration_seconds_to_here": 1720,
+              "coords": [
+                19.388239,
+                -99.213667
+              ],
+              "name": "Camino a Santa Fe - Chilenos",
+              "id": "DFStop_CaminoASantaFeChilenos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1774,
+              "coords": [
+                19.388694,
+                -99.212519
+              ],
+              "name": "Camino a Santa Fe - Uruguayos",
+              "id": "DFStop_CaminoASantaFeUruguayos_NE"
+            },
+            {
+              "duration_seconds_to_here": 1820,
+              "coords": [
+                19.389079,
+                -99.211553
+              ],
+              "name": "Camino a Santa Fe - Costarricenses",
+              "id": "DFStop_CaminoASantaFeCostarricenses_NE"
+            },
+            {
+              "duration_seconds_to_here": 1948,
+              "coords": [
+                19.390273,
+                -99.20886
+              ],
+              "name": "Camino a Santa Fe - Cristo Rey",
+              "id": "DFStop_CaminoASantaFeCristoRey_S"
+            },
+            {
+              "duration_seconds_to_here": 2014,
+              "coords": [
+                19.390546,
+                -99.207358
+              ],
+              "name": "Camino a Santa Fe - Turineses",
+              "id": "DFStop_CaminoASantaFeTurineses_E"
+            },
+            {
+              "duration_seconds_to_here": 2189,
+              "coords": [
+                19.389817,
+                -99.203399
+              ],
+              "name": "Avenida Camino Real a Toluca - 15 de Noviembre",
+              "id": "CMStop_avenida_camino_real_a_toluca_15_de_noviembre"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:05:42-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.378988,
+              -99.246776
+            ],
+            [
+              19.379899,
+              -99.244394
+            ],
+            [
+              19.380183,
+              -99.243321
+            ],
+            [
+              19.380547,
+              -99.24212
+            ],
+            [
+              19.380911,
+              -99.241433
+            ],
+            [
+              19.381195,
+              -99.240918
+            ],
+            [
+              19.38166,
+              -99.240146
+            ],
+            [
+              19.382045,
+              -99.239191
+            ],
+            [
+              19.383057,
+              -99.235522
+            ],
+            [
+              19.383583,
+              -99.232711
+            ],
+            [
+              19.383765,
+              -99.231412
+            ],
+            [
+              19.38418,
+              -99.229953
+            ],
+            [
+              19.384585,
+              -99.228473
+            ],
+            [
+              19.385152,
+              -99.226949
+            ],
+            [
+              19.385901,
+              -99.224782
+            ],
+            [
+              19.386781,
+              -99.222679
+            ],
+            [
+              19.387429,
+              -99.215791
+            ],
+            [
+              19.388239,
+              -99.213667
+            ],
+            [
+              19.388694,
+              -99.212519
+            ],
+            [
+              19.389079,
+              -99.211553
+            ],
+            [
+              19.390273,
+              -99.20886
+            ],
+            [
+              19.390546,
+              -99.207358
+            ],
+            [
+              19.389817,
+              -99.203399
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 600,
+            "duration_seconds": 2189
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "CM_DFMicrobus_camion_5"
+            }
+          ],
+          "departure_time": "2016-07-28T12:29:13-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:20:57-05:00",
+          "shape": [
+            [
+              19.389817,
+              -99.203399
+            ],
+            [
+              19.389858,
+              -99.203414
+            ],
+            [
+              19.389868,
+              -99.203384
+            ],
+            [
+              19.389835,
+              -99.203163
+            ],
+            [
+              19.389795,
+              -99.202995
+            ],
+            [
+              19.389748,
+              -99.202881
+            ],
+            [
+              19.389288,
+              -99.20256
+            ],
+            [
+              19.389256,
+              -99.202545
+            ],
+            [
+              19.388727,
+              -99.202179
+            ],
+            [
+              19.388132,
+              -99.201759
+            ],
+            [
+              19.387722,
+              -99.201508
+            ],
+            [
+              19.387341,
+              -99.201271
+            ],
+            [
+              19.38744,
+              -99.199905
+            ],
+            [
+              19.387212,
+              -99.199749
+            ],
+            [
+              19.38714,
+              -99.199699
+            ],
+            [
+              19.38677,
+              -99.199425
+            ],
+            [
+              19.386536,
+              -99.199326
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 915,
+          "distance_meters": 1205,
+          "departure_time": "2016-07-28T13:05:42-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "2f52af49b93792495d8468caaeecfec6",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3080,
+      "calories": 39,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 757,
+      "formatted_price": "$13.00",
+      "signature": "{\"duration\": 3080, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_AvenidaConstituyentesSecretariaDeHacienda_E\", \"mode\": \"transit\", \"route_ids\": [\"RTPBus34A\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 8}, {\"end\": \"DFStop_TerminalMetroTacubaya_N\", \"mode\": \"transit\", \"route_ids\": [\"CM_DFMicrobus_camion\", \"DFMicrobusMapatonR29\", \"DFMicrobusMapatonR8\", \"RTPAteneaBus113B\"], \"start\": \"DFStop_AvenidaConstituyentesSecretariaDeHacienda_E\", \"stop_count\": 11}, {\"distance\": 398, \"duration\": 304, \"ec\": \"19.400945,-99.188198\", \"mode\": \"walk\", \"sc\": \"19.402882,-99.189398\"}, {\"end\": \"DFStop_MinasAltaTension_E\", \"mode\": \"transit\", \"route_ids\": [\"CM_DFMicrobus_micro_17\"], \"start\": \"DFStop_CetramTacubaya_SW\", \"stop_count\": 12}, {\"distance\": 176, \"duration\": 130, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.382541,-99.199752\"}], \"price_pence\": 1300, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 570,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Balderas",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 57,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 134,
+              "coords": [
+                19.379039,
+                -99.248396
+              ],
+              "name": "Avenida Vasco De Quiroga - Glorieta",
+              "id": "DFStop_AvenidaVascoDeQuirogaGlorieta_NW"
+            },
+            {
+              "duration_seconds_to_here": 322,
+              "coords": [
+                19.386306,
+                -99.243246
+              ],
+              "name": "Prolongación Paseo De La Reforma - Puente Conafrut",
+              "id": "DFStop_ProlongacionPaseoDeLaReformaPuenteConafrut_NE"
+            },
+            {
+              "duration_seconds_to_here": 501,
+              "coords": [
+                19.39342,
+                -99.237131
+              ],
+              "name": "Avenida Constituyentes - Frente a Grupo Radio Centro",
+              "id": "DFStop_AvenidaConstituyentesFrenteAGrupoRadioCentro_NE"
+            },
+            {
+              "duration_seconds_to_here": 702,
+              "coords": [
+                19.395657,
+                -99.227228
+              ],
+              "name": "Avenida Constituyentes - Cerrada Constituyentes",
+              "id": "DFStop_AvenidaConstituyentesCerradaConstituyentes_E"
+            },
+            {
+              "duration_seconds_to_here": 800,
+              "coords": [
+                19.395788,
+                -99.223194
+              ],
+              "name": "Avenida Constituyentes - Estado Mayor Presidencial",
+              "id": "DFStop_AvenidaConstituyentesEstadoMayorPresidencial_E"
+            },
+            {
+              "duration_seconds_to_here": 941,
+              "coords": [
+                19.397903,
+                -99.216714
+              ],
+              "name": "Avenida Constituyentes - Secretaría De Hacienda",
+              "id": "DFStop_AvenidaConstituyentesSecretariaDeHacienda_E"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:45:38-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.377555,
+              -99.251488
+            ],
+            [
+              19.37757,
+              -99.25144
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.37843,
+              -99.24896
+            ],
+            [
+              19.3782,
+              -99.24854
+            ],
+            [
+              19.37834,
+              -99.24809
+            ],
+            [
+              19.37888,
+              -99.24807
+            ],
+            [
+              19.37906,
+              -99.248382
+            ],
+            [
+              19.37914,
+              -99.24852
+            ],
+            [
+              19.37934,
+              -99.24881
+            ],
+            [
+              19.38089,
+              -99.24924
+            ],
+            [
+              19.38137,
+              -99.24922
+            ],
+            [
+              19.38187,
+              -99.24884
+            ],
+            [
+              19.38372,
+              -99.24642
+            ],
+            [
+              19.38465,
+              -99.24454
+            ],
+            [
+              19.38518,
+              -99.24402
+            ],
+            [
+              19.386339,
+              -99.243305
+            ],
+            [
+              19.38638,
+              -99.24328
+            ],
+            [
+              19.38689,
+              -99.24276
+            ],
+            [
+              19.38775,
+              -99.24145
+            ],
+            [
+              19.3888,
+              -99.23989
+            ],
+            [
+              19.38949,
+              -99.23936
+            ],
+            [
+              19.39142,
+              -99.23875
+            ],
+            [
+              19.39273,
+              -99.23861
+            ],
+            [
+              19.39347,
+              -99.23774
+            ],
+            [
+              19.393517,
+              -99.23714
+            ],
+            [
+              19.39353,
+              -99.23698
+            ],
+            [
+              19.39349,
+              -99.23615
+            ],
+            [
+              19.39393,
+              -99.23479
+            ],
+            [
+              19.39483,
+              -99.23267
+            ],
+            [
+              19.39481,
+              -99.23131
+            ],
+            [
+              19.39532,
+              -99.22947
+            ],
+            [
+              19.395748,
+              -99.227248
+            ],
+            [
+              19.39556,
+              -99.22491
+            ],
+            [
+              19.395883,
+              -99.223214
+            ],
+            [
+              19.39591,
+              -99.22307
+            ],
+            [
+              19.39713,
+              -99.21941
+            ],
+            [
+              19.397987,
+              -99.216744
+            ],
+            [
+              19.397903,
+              -99.216714
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 300,
+            "duration_seconds": 941
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Ecobús L1",
+              "color": "#63be49",
+              "ui_color": "#63be49",
+              "brand_id": "RTPBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPBus34A"
+            }
+          ],
+          "departure_time": "2016-07-28T12:29:57-05:00"
+        },
+        {
+          "platform_description": "Tacubaya | Metro Tacubaya | Metro Tacubaya (por Carretera México-Toluca)",
+          "stops": [
+            {
+              "coords": [
+                19.397903,
+                -99.216714
+              ],
+              "name": "Avenida Constituyentes - Secretaría De Hacienda",
+              "id": "DFStop_AvenidaConstituyentesSecretariaDeHacienda_E"
+            },
+            {
+              "duration_seconds_to_here": 48,
+              "coords": [
+                19.398602,
+                -99.21474
+              ],
+              "name": "Avenida Constituyentes - Vocacional 4",
+              "id": "DFStop_AvenidaConstituyentesVocacional4_NE"
+            },
+            {
+              "duration_seconds_to_here": 154,
+              "coords": [
+                19.400201,
+                -99.21048
+              ],
+              "name": "Avenida Constituyentes - Henequén",
+              "id": "DFStop_AvenidaConstituyentesHenequen_E"
+            },
+            {
+              "duration_seconds_to_here": 203,
+              "coords": [
+                19.400666,
+                -99.208367
+              ],
+              "name": "Avenida Observatorio - Florencio Miranda",
+              "id": "DFStop_AvenidaObservatorioFlorencioMiranda_E"
+            },
+            {
+              "duration_seconds_to_here": 296,
+              "coords": [
+                19.401182,
+                -99.204376
+              ],
+              "name": "Avenida Observatorio - Sur 144",
+              "id": "DFStop_AvenidaObservatorioSur144_E"
+            },
+            {
+              "duration_seconds_to_here": 336,
+              "coords": [
+                19.401364,
+                -99.202638
+              ],
+              "name": "Avenida Observatorio - Sur 136",
+              "id": "DFStop_AvenidaObservatorioSur136_E"
+            },
+            {
+              "duration_seconds_to_here": 362,
+              "coords": [
+                19.401506,
+                -99.201533
+              ],
+              "name": "Avenida Observatorio - Sur 128",
+              "id": "DFStop_AvenidaObservatorioSur128_NE"
+            },
+            {
+              "duration_seconds_to_here": 384,
+              "coords": [
+                19.40188,
+                -99.200642
+              ],
+              "name": "Avenida Observatorio - Sur 122",
+              "id": "DFStop_AvenidaObservatorioSur122_NE"
+            },
+            {
+              "duration_seconds_to_here": 417,
+              "coords": [
+                19.402407,
+                -99.199322
+              ],
+              "name": "Avenida Observatorio - Sostenes Rocha",
+              "id": "DFStop_AvenidaObservatorioSostenesRocha_E"
+            },
+            {
+              "duration_seconds_to_here": 475,
+              "coords": [
+                19.403064,
+                -99.196876
+              ],
+              "name": "Avenida Observatorio - Ex - Arzobispado",
+              "id": "DFStop_AvenidaObservatorioExArzobispado_E"
+            },
+            {
+              "duration_seconds_to_here": 647,
+              "coords": [
+                19.402882,
+                -99.189398
+              ],
+              "name": "Terminal Metro Tacubaya",
+              "id": "DFStop_TerminalMetroTacubaya_N"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:03:04-05:00",
+          "shape": [
+            [
+              19.397903,
+              -99.216714
+            ],
+            [
+              19.398602,
+              -99.21474
+            ],
+            [
+              19.400201,
+              -99.21048
+            ],
+            [
+              19.400666,
+              -99.208367
+            ],
+            [
+              19.401182,
+              -99.204376
+            ],
+            [
+              19.401364,
+              -99.202638
+            ],
+            [
+              19.401506,
+              -99.201533
+            ],
+            [
+              19.40188,
+              -99.200642
+            ],
+            [
+              19.402407,
+              -99.199322
+            ],
+            [
+              19.403064,
+              -99.196876
+            ],
+            [
+              19.402882,
+              -99.189398
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 184,
+            "duration_seconds": 647
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "CM_DFMicrobus_camion"
+            },
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "DFMicrobusMapatonR8"
+            },
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "DFMicrobusMapatonR29"
+            },
+            {
+              "display_name": "113-B",
+              "color": "#f27b0d",
+              "ui_color": "#f27b0d",
+              "brand_id": "RTPAteneaBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPAteneaBus113B"
+            }
+          ],
+          "departure_time": "2016-07-28T12:52:17-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:08:08-05:00",
+          "shape": [
+            [
+              19.402882,
+              -99.189398
+            ],
+            [
+              19.402882,
+              -99.189392
+            ],
+            [
+              19.402395,
+              -99.189438
+            ],
+            [
+              19.402347,
+              -99.188849
+            ],
+            [
+              19.402327,
+              -99.188606
+            ],
+            [
+              19.402323,
+              -99.18855
+            ],
+            [
+              19.402294,
+              -99.188065
+            ],
+            [
+              19.402264,
+              -99.18795
+            ],
+            [
+              19.402252,
+              -99.187874
+            ],
+            [
+              19.402227,
+              -99.187744
+            ],
+            [
+              19.402168,
+              -99.187683
+            ],
+            [
+              19.402141,
+              -99.187655
+            ],
+            [
+              19.402086,
+              -99.187599
+            ],
+            [
+              19.401949,
+              -99.187592
+            ],
+            [
+              19.4018,
+              -99.18763
+            ],
+            [
+              19.401533,
+              -99.187783
+            ],
+            [
+              19.401468,
+              -99.18782
+            ],
+            [
+              19.400917,
+              -99.188143
+            ],
+            [
+              19.400945,
+              -99.188198
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 304,
+          "distance_meters": 398,
+          "departure_time": "2016-07-28T13:03:04-05:00"
+        },
+        {
+          "platform_description": "Santa Lucia",
+          "stops": [
+            {
+              "coords": [
+                19.400945,
+                -99.188198
+              ],
+              "name": "CETRAM Tacubaya",
+              "id": "DFStop_CetramTacubaya_SW"
+            },
+            {
+              "duration_seconds_to_here": 9,
+              "coords": [
+                19.400534,
+                -99.188433
+              ],
+              "name": "Avenida Jalisco - Tordo",
+              "id": "DFStop_AvenidaJaliscoTordo_SW"
+            },
+            {
+              "duration_seconds_to_here": 38,
+              "coords": [
+                19.399209,
+                -99.189173
+              ],
+              "name": "Avenida Jalisco - Viaducto Miguel Alemán",
+              "id": "DFStop_AvenidaJaliscoViaductoMiguelAleman_NE"
+            },
+            {
+              "duration_seconds_to_here": 65,
+              "coords": [
+                19.397994,
+                -99.189838
+              ],
+              "name": "Avenida Camino Real  A Toluca - Anillo Periférico",
+              "id": "DFStop_AvenidaCaminoRealATolucaAnilloPeriferico_SW"
+            },
+            {
+              "duration_seconds_to_here": 79,
+              "coords": [
+                19.397418,
+                -99.190342
+              ],
+              "name": "Anillo Periférico Sur - Camino Real A Toluca",
+              "id": "DFStop_AnilloPerifericoSurCaminoRealAToluca_S"
+            },
+            {
+              "duration_seconds_to_here": 112,
+              "coords": [
+                19.396568,
+                -99.191909
+              ],
+              "name": "Camino Real a Toluca - Garza",
+              "id": "DFStop_CaminoRealATolucaGarza_NW"
+            },
+            {
+              "duration_seconds_to_here": 146,
+              "coords": [
+                19.395323,
+                -99.193164
+              ],
+              "name": "Canario / General Felipe Ángeles",
+              "id": "CMStop_canario_general_felipe_angeles"
+            },
+            {
+              "duration_seconds_to_here": 177,
+              "coords": [
+                19.39379,
+                -99.193636
+              ],
+              "name": "Canario / División del Norte",
+              "id": "CMStop_canario_division_del_norte"
+            },
+            {
+              "duration_seconds_to_here": 230,
+              "coords": [
+                19.391093,
+                -99.194237
+              ],
+              "name": "Canario / Calle 4",
+              "id": "CMStop_canario_calle_4"
+            },
+            {
+              "duration_seconds_to_here": 269,
+              "coords": [
+                19.389134,
+                -99.194704
+              ],
+              "name": "Canario / Avenida Central",
+              "id": "CMStop_canario_avenida_central"
+            },
+            {
+              "duration_seconds_to_here": 377,
+              "coords": [
+                19.385056,
+                -99.1987
+              ],
+              "name": "Central / Escuandrón 201",
+              "id": "CMStop_central_escuandron_201"
+            },
+            {
+              "duration_seconds_to_here": 430,
+              "coords": [
+                19.382541,
+                -99.199752
+              ],
+              "name": "Minas - Alta tensión",
+              "id": "DFStop_MinasAltaTension_E"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:17:10-05:00",
+          "shape": [
+            [
+              19.400945,
+              -99.188198
+            ],
+            [
+              19.400534,
+              -99.188433
+            ],
+            [
+              19.399209,
+              -99.189173
+            ],
+            [
+              19.397994,
+              -99.189838
+            ],
+            [
+              19.397418,
+              -99.190342
+            ],
+            [
+              19.396568,
+              -99.191909
+            ],
+            [
+              19.395323,
+              -99.193164
+            ],
+            [
+              19.39379,
+              -99.193636
+            ],
+            [
+              19.391093,
+              -99.194237
+            ],
+            [
+              19.389134,
+              -99.194704
+            ],
+            [
+              19.385056,
+              -99.1987
+            ],
+            [
+              19.382541,
+              -99.199752
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 600,
+            "duration_seconds": 430
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Micro",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "CM_DFMicrobus_micro_17"
+            }
+          ],
+          "departure_time": "2016-07-28T13:10:00-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:19:20-05:00",
+          "shape": [
+            [
+              19.382541,
+              -99.199752
+            ],
+            [
+              19.382487,
+              -99.199734
+            ],
+            [
+              19.3825,
+              -99.199692
+            ],
+            [
+              19.38258,
+              -99.199425
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 130,
+          "distance_meters": 176,
+          "departure_time": "2016-07-28T13:17:10-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "b12352de5dae52dce69e18960c7ca2b9",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3304,
+      "calories": 38,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 767,
+      "formatted_price": "$13.00",
+      "signature": "{\"duration\": 3304, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_AvenidaConstituyentesCerradaConstituyentes_E\", \"mode\": \"transit\", \"route_ids\": [\"RTPBus34A\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 6}, {\"end\": \"CMStop_terminal_cetram_observatorio_autobuses_poniente\", \"mode\": \"transit\", \"route_ids\": [\"DFMicrobusMapatonR268\"], \"start\": \"DFStop_AvenidaConstituyentesCerradaConstituyentes_E\", \"stop_count\": 6}, {\"end\": \"CMStop_escuadron_201_la_venta\", \"mode\": \"transit\", \"route_ids\": [\"DFMicrobusMapatonR242\"], \"start\": \"CMStop_terminal_cetram_observatorio_autobuses_poniente\", \"stop_count\": 6}, {\"distance\": 584, \"duration\": 431, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.386564,-99.199414\"}], \"price_pence\": 1300, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 567,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Balderas",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 57,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 134,
+              "coords": [
+                19.379039,
+                -99.248396
+              ],
+              "name": "Avenida Vasco De Quiroga - Glorieta",
+              "id": "DFStop_AvenidaVascoDeQuirogaGlorieta_NW"
+            },
+            {
+              "duration_seconds_to_here": 322,
+              "coords": [
+                19.386306,
+                -99.243246
+              ],
+              "name": "Prolongación Paseo De La Reforma - Puente Conafrut",
+              "id": "DFStop_ProlongacionPaseoDeLaReformaPuenteConafrut_NE"
+            },
+            {
+              "duration_seconds_to_here": 501,
+              "coords": [
+                19.39342,
+                -99.237131
+              ],
+              "name": "Avenida Constituyentes - Frente a Grupo Radio Centro",
+              "id": "DFStop_AvenidaConstituyentesFrenteAGrupoRadioCentro_NE"
+            },
+            {
+              "duration_seconds_to_here": 702,
+              "coords": [
+                19.395657,
+                -99.227228
+              ],
+              "name": "Avenida Constituyentes - Cerrada Constituyentes",
+              "id": "DFStop_AvenidaConstituyentesCerradaConstituyentes_E"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:41:39-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.377555,
+              -99.251488
+            ],
+            [
+              19.37757,
+              -99.25144
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.37843,
+              -99.24896
+            ],
+            [
+              19.3782,
+              -99.24854
+            ],
+            [
+              19.37834,
+              -99.24809
+            ],
+            [
+              19.37888,
+              -99.24807
+            ],
+            [
+              19.37906,
+              -99.248382
+            ],
+            [
+              19.37914,
+              -99.24852
+            ],
+            [
+              19.37934,
+              -99.24881
+            ],
+            [
+              19.38089,
+              -99.24924
+            ],
+            [
+              19.38137,
+              -99.24922
+            ],
+            [
+              19.38187,
+              -99.24884
+            ],
+            [
+              19.38372,
+              -99.24642
+            ],
+            [
+              19.38465,
+              -99.24454
+            ],
+            [
+              19.38518,
+              -99.24402
+            ],
+            [
+              19.386339,
+              -99.243305
+            ],
+            [
+              19.38638,
+              -99.24328
+            ],
+            [
+              19.38689,
+              -99.24276
+            ],
+            [
+              19.38775,
+              -99.24145
+            ],
+            [
+              19.3888,
+              -99.23989
+            ],
+            [
+              19.38949,
+              -99.23936
+            ],
+            [
+              19.39142,
+              -99.23875
+            ],
+            [
+              19.39273,
+              -99.23861
+            ],
+            [
+              19.39347,
+              -99.23774
+            ],
+            [
+              19.393517,
+              -99.23714
+            ],
+            [
+              19.39353,
+              -99.23698
+            ],
+            [
+              19.39349,
+              -99.23615
+            ],
+            [
+              19.39393,
+              -99.23479
+            ],
+            [
+              19.39483,
+              -99.23267
+            ],
+            [
+              19.39481,
+              -99.23131
+            ],
+            [
+              19.39532,
+              -99.22947
+            ],
+            [
+              19.395748,
+              -99.227248
+            ],
+            [
+              19.395657,
+              -99.227228
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 300,
+            "duration_seconds": 702
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Ecobús L1",
+              "color": "#63be49",
+              "ui_color": "#63be49",
+              "brand_id": "RTPBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPBus34A"
+            }
+          ],
+          "departure_time": "2016-07-28T12:29:57-05:00"
+        },
+        {
+          "platform_description": "Metro Observatorio",
+          "stops": [
+            {
+              "coords": [
+                19.395657,
+                -99.227228
+              ],
+              "name": "Avenida Constituyentes - Cerrada Constituyentes",
+              "id": "DFStop_AvenidaConstituyentesCerradaConstituyentes_E"
+            },
+            {
+              "duration_seconds_to_here": 99,
+              "coords": [
+                19.395788,
+                -99.223194
+              ],
+              "name": "Avenida Constituyentes - Estado Mayor Presidencial",
+              "id": "DFStop_AvenidaConstituyentesEstadoMayorPresidencial_E"
+            },
+            {
+              "duration_seconds_to_here": 169,
+              "coords": [
+                19.396669,
+                -99.220523
+              ],
+              "name": "Avenida Constituyentes - SEDESOL",
+              "id": "DFStop_AvenidaConstituyentesSedesol_E"
+            },
+            {
+              "duration_seconds_to_here": 354,
+              "coords": [
+                19.397074,
+                -99.213002
+              ],
+              "name": "Nardo (Voca 4)",
+              "id": "CMStop_nardo_voca_4"
+            },
+            {
+              "duration_seconds_to_here": 431,
+              "coords": [
+                19.396861,
+                -99.209869
+              ],
+              "name": "Bajada Capulin",
+              "id": "CMStop_bajada_capulin_1"
+            },
+            {
+              "duration_seconds_to_here": 642,
+              "coords": [
+                19.397792,
+                -99.201322
+              ],
+              "name": "Terminal CETRAM Observatorio / Autobuses Poniente",
+              "id": "CMStop_terminal_cetram_observatorio_autobuses_poniente"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:55:00-05:00",
+          "shape": [
+            [
+              19.395657,
+              -99.227228
+            ],
+            [
+              19.395788,
+              -99.223194
+            ],
+            [
+              19.396669,
+              -99.220523
+            ],
+            [
+              19.397074,
+              -99.213002
+            ],
+            [
+              19.396861,
+              -99.209869
+            ],
+            [
+              19.397792,
+              -99.201322
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 900,
+            "duration_seconds": 642
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "DFMicrobusMapatonR268"
+            }
+          ],
+          "departure_time": "2016-07-28T12:44:18-05:00"
+        },
+        {
+          "platform_description": "La Araña",
+          "stops": [
+            {
+              "coords": [
+                19.397792,
+                -99.201322
+              ],
+              "name": "Terminal CETRAM Observatorio / Autobuses Poniente",
+              "id": "CMStop_terminal_cetram_observatorio_autobuses_poniente"
+            },
+            {
+              "duration_seconds_to_here": 90,
+              "coords": [
+                19.396529,
+                -99.198721
+              ],
+              "name": "La Fabrica",
+              "id": "DFStop_R242242S1_S_1"
+            },
+            {
+              "duration_seconds_to_here": 152,
+              "coords": [
+                19.394356,
+                -99.199719
+              ],
+              "name": "De la Curva / Las Torres",
+              "id": "CMStop_de_la_curva_las_torres_1"
+            },
+            {
+              "duration_seconds_to_here": 227,
+              "coords": [
+                19.392241,
+                -99.201704
+              ],
+              "name": "Escuadrón 201 / Paralela 7",
+              "id": "CMStop_escuadron_201_paralela_7"
+            },
+            {
+              "duration_seconds_to_here": 303,
+              "coords": [
+                19.389362,
+                -99.2015
+              ],
+              "name": "Escuadron 201 / San Patricio",
+              "id": "CMStop_escuadron_201_san_patricio_1"
+            },
+            {
+              "duration_seconds_to_here": 393,
+              "coords": [
+                19.386564,
+                -99.199414
+              ],
+              "name": "Escuadrón 201 / La Venta",
+              "id": "CMStop_escuadron_201_la_venta"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:06:33-05:00",
+          "shape": [
+            [
+              19.397792,
+              -99.201322
+            ],
+            [
+              19.396529,
+              -99.198721
+            ],
+            [
+              19.394356,
+              -99.199719
+            ],
+            [
+              19.392241,
+              -99.201704
+            ],
+            [
+              19.389362,
+              -99.2015
+            ],
+            [
+              19.386564,
+              -99.199414
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 900,
+            "duration_seconds": 393
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "DFMicrobusMapatonR242"
+            }
+          ],
+          "departure_time": "2016-07-28T13:00:00-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:13:44-05:00",
+          "shape": [
+            [
+              19.386564,
+              -99.199414
+            ],
+            [
+              19.386524,
+              -99.199408
+            ],
+            [
+              19.386536,
+              -99.199326
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 431,
+          "distance_meters": 584,
+          "departure_time": "2016-07-28T13:06:33-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "7bec94e210ea1b1b39dfea914924f578",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3372,
+      "calories": 38,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 767,
+      "formatted_price": "$13.00",
+      "signature": "{\"duration\": 3372, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_AvenidaConstituyentesCerradaConstituyentes_E\", \"mode\": \"transit\", \"route_ids\": [\"RTPBus34A\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 6}, {\"end\": \"CMStop_terminal_cetram_observatorio_autobuses_poniente\", \"mode\": \"transit\", \"route_ids\": [\"DFMicrobusMapatonR268\"], \"start\": \"DFStop_AvenidaConstituyentesCerradaConstituyentes_E\", \"stop_count\": 6}, {\"end\": \"CMStop_escuadron_201_la_venta\", \"mode\": \"transit\", \"route_ids\": [\"CM_DFMicrobus_micro_20\"], \"start\": \"CMStop_terminal_cetram_observatorio_autobuses_poniente\", \"stop_count\": 7}, {\"distance\": 584, \"duration\": 431, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.386564,-99.199414\"}], \"price_pence\": 1300, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 567,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Balderas",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 57,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 134,
+              "coords": [
+                19.379039,
+                -99.248396
+              ],
+              "name": "Avenida Vasco De Quiroga - Glorieta",
+              "id": "DFStop_AvenidaVascoDeQuirogaGlorieta_NW"
+            },
+            {
+              "duration_seconds_to_here": 322,
+              "coords": [
+                19.386306,
+                -99.243246
+              ],
+              "name": "Prolongación Paseo De La Reforma - Puente Conafrut",
+              "id": "DFStop_ProlongacionPaseoDeLaReformaPuenteConafrut_NE"
+            },
+            {
+              "duration_seconds_to_here": 501,
+              "coords": [
+                19.39342,
+                -99.237131
+              ],
+              "name": "Avenida Constituyentes - Frente a Grupo Radio Centro",
+              "id": "DFStop_AvenidaConstituyentesFrenteAGrupoRadioCentro_NE"
+            },
+            {
+              "duration_seconds_to_here": 702,
+              "coords": [
+                19.395657,
+                -99.227228
+              ],
+              "name": "Avenida Constituyentes - Cerrada Constituyentes",
+              "id": "DFStop_AvenidaConstituyentesCerradaConstituyentes_E"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:41:39-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.377555,
+              -99.251488
+            ],
+            [
+              19.37757,
+              -99.25144
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.37843,
+              -99.24896
+            ],
+            [
+              19.3782,
+              -99.24854
+            ],
+            [
+              19.37834,
+              -99.24809
+            ],
+            [
+              19.37888,
+              -99.24807
+            ],
+            [
+              19.37906,
+              -99.248382
+            ],
+            [
+              19.37914,
+              -99.24852
+            ],
+            [
+              19.37934,
+              -99.24881
+            ],
+            [
+              19.38089,
+              -99.24924
+            ],
+            [
+              19.38137,
+              -99.24922
+            ],
+            [
+              19.38187,
+              -99.24884
+            ],
+            [
+              19.38372,
+              -99.24642
+            ],
+            [
+              19.38465,
+              -99.24454
+            ],
+            [
+              19.38518,
+              -99.24402
+            ],
+            [
+              19.386339,
+              -99.243305
+            ],
+            [
+              19.38638,
+              -99.24328
+            ],
+            [
+              19.38689,
+              -99.24276
+            ],
+            [
+              19.38775,
+              -99.24145
+            ],
+            [
+              19.3888,
+              -99.23989
+            ],
+            [
+              19.38949,
+              -99.23936
+            ],
+            [
+              19.39142,
+              -99.23875
+            ],
+            [
+              19.39273,
+              -99.23861
+            ],
+            [
+              19.39347,
+              -99.23774
+            ],
+            [
+              19.393517,
+              -99.23714
+            ],
+            [
+              19.39353,
+              -99.23698
+            ],
+            [
+              19.39349,
+              -99.23615
+            ],
+            [
+              19.39393,
+              -99.23479
+            ],
+            [
+              19.39483,
+              -99.23267
+            ],
+            [
+              19.39481,
+              -99.23131
+            ],
+            [
+              19.39532,
+              -99.22947
+            ],
+            [
+              19.395748,
+              -99.227248
+            ],
+            [
+              19.395657,
+              -99.227228
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 300,
+            "duration_seconds": 702
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Ecobús L1",
+              "color": "#63be49",
+              "ui_color": "#63be49",
+              "brand_id": "RTPBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPBus34A"
+            }
+          ],
+          "departure_time": "2016-07-28T12:29:57-05:00"
+        },
+        {
+          "platform_description": "Metro Observatorio",
+          "stops": [
+            {
+              "coords": [
+                19.395657,
+                -99.227228
+              ],
+              "name": "Avenida Constituyentes - Cerrada Constituyentes",
+              "id": "DFStop_AvenidaConstituyentesCerradaConstituyentes_E"
+            },
+            {
+              "duration_seconds_to_here": 99,
+              "coords": [
+                19.395788,
+                -99.223194
+              ],
+              "name": "Avenida Constituyentes - Estado Mayor Presidencial",
+              "id": "DFStop_AvenidaConstituyentesEstadoMayorPresidencial_E"
+            },
+            {
+              "duration_seconds_to_here": 169,
+              "coords": [
+                19.396669,
+                -99.220523
+              ],
+              "name": "Avenida Constituyentes - SEDESOL",
+              "id": "DFStop_AvenidaConstituyentesSedesol_E"
+            },
+            {
+              "duration_seconds_to_here": 354,
+              "coords": [
+                19.397074,
+                -99.213002
+              ],
+              "name": "Nardo (Voca 4)",
+              "id": "CMStop_nardo_voca_4"
+            },
+            {
+              "duration_seconds_to_here": 431,
+              "coords": [
+                19.396861,
+                -99.209869
+              ],
+              "name": "Bajada Capulin",
+              "id": "CMStop_bajada_capulin_1"
+            },
+            {
+              "duration_seconds_to_here": 642,
+              "coords": [
+                19.397792,
+                -99.201322
+              ],
+              "name": "Terminal CETRAM Observatorio / Autobuses Poniente",
+              "id": "CMStop_terminal_cetram_observatorio_autobuses_poniente"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:55:00-05:00",
+          "shape": [
+            [
+              19.395657,
+              -99.227228
+            ],
+            [
+              19.395788,
+              -99.223194
+            ],
+            [
+              19.396669,
+              -99.220523
+            ],
+            [
+              19.397074,
+              -99.213002
+            ],
+            [
+              19.396861,
+              -99.209869
+            ],
+            [
+              19.397792,
+              -99.201322
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 900,
+            "duration_seconds": 642
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Camión",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "DFMicrobusMapatonR268"
+            }
+          ],
+          "departure_time": "2016-07-28T12:44:18-05:00"
+        },
+        {
+          "platform_description": "Olivar del Conde",
+          "stops": [
+            {
+              "coords": [
+                19.397792,
+                -99.201322
+              ],
+              "name": "Terminal CETRAM Observatorio / Autobuses Poniente",
+              "id": "CMStop_terminal_cetram_observatorio_autobuses_poniente"
+            },
+            {
+              "duration_seconds_to_here": 176,
+              "coords": [
+                19.394356,
+                -99.199719
+              ],
+              "name": "De la Curva / Las Torres",
+              "id": "CMStop_de_la_curva_las_torres_1"
+            },
+            {
+              "duration_seconds_to_here": 308,
+              "coords": [
+                19.392241,
+                -99.201704
+              ],
+              "name": "Escuadrón 201 / Paralela 7",
+              "id": "CMStop_escuadron_201_paralela_7"
+            },
+            {
+              "duration_seconds_to_here": 400,
+              "coords": [
+                19.390303,
+                -99.20208
+              ],
+              "name": "Camino Real a Toluca - Escuadrón 201",
+              "id": "DFStop_CaminoRealATolucaEscuadron201_NE"
+            },
+            {
+              "duration_seconds_to_here": 424,
+              "coords": [
+                19.389868,
+                -99.201817
+              ],
+              "name": "De la Curva / Javier Martínez",
+              "id": "CMStop_de_la_curva_javier_martinez"
+            },
+            {
+              "duration_seconds_to_here": 578,
+              "coords": [
+                19.387181,
+                -99.1998
+              ],
+              "name": "Escuadrón 201 / Romanos",
+              "id": "CMStop_escuadron_201_romanos"
+            },
+            {
+              "duration_seconds_to_here": 611,
+              "coords": [
+                19.386564,
+                -99.199414
+              ],
+              "name": "Escuadrón 201 / La Venta",
+              "id": "CMStop_escuadron_201_la_venta"
+            }
+          ],
+          "arrival_time": "2016-07-28T13:10:11-05:00",
+          "shape": [
+            [
+              19.397792,
+              -99.201322
+            ],
+            [
+              19.394356,
+              -99.199719
+            ],
+            [
+              19.392241,
+              -99.201704
+            ],
+            [
+              19.390303,
+              -99.20208
+            ],
+            [
+              19.389868,
+              -99.201817
+            ],
+            [
+              19.387181,
+              -99.1998
+            ],
+            [
+              19.386564,
+              -99.199414
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 600,
+            "duration_seconds": 611
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Micro",
+              "color": "#40A55C",
+              "ui_color": "#40A55C",
+              "brand_id": "DFMicrobus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "CM_DFMicrobus_micro_20"
+            }
+          ],
+          "departure_time": "2016-07-28T13:00:00-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:17:22-05:00",
+          "shape": [
+            [
+              19.386564,
+              -99.199414
+            ],
+            [
+              19.386524,
+              -99.199408
+            ],
+            [
+              19.386536,
+              -99.199326
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 431,
+          "distance_meters": 584,
+          "departure_time": "2016-07-28T13:10:11-05:00"
+        }
+      ]
+    },
+    {
+      "journey_equivalence_hash": "ec0f71c19701f678f3c672b665648651",
+      "end": {
+        "coords": [
+          19.3832,
+          -99.198274
+        ],
+        "name": "Cemex Sn Antonio",
+        "address": "Av San Antonio 461, Álvaro Obregón"
+      },
+      "duration_seconds": 3856,
+      "calories": 190,
+      "start": {
+        "coords": [
+          19.377004,
+          -99.251951
+        ],
+        "name": "Televisa",
+        "address": "Av. Vasco De Quiroga #2000, Alvaro Obregon, DF"
+      },
+      "distance_meters": 3283,
+      "formatted_price": "$5.00",
+      "signature": "{\"duration\": 3856, \"end\": {\"address\": \"Av San Antonio 461, \\u00c1lvaro Obreg\\u00f3n\", \"coords\": \"19.3832,-99.198274\", \"name\": \"Cemex Sn Antonio\"}, \"legs\": [{\"distance\": 183, \"duration\": 136, \"ec\": \"19.37749,-99.251465\", \"mode\": \"walk\", \"sc\": \"19.377401,-99.252078\"}, {\"end\": \"DFStop_AvenidaConstituyentesVocacional4_NE\", \"mode\": \"transit\", \"route_ids\": [\"RTPBus34A\"], \"start\": \"DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE\", \"stop_count\": 9}, {\"distance\": 3100, \"duration\": 2609, \"ec\": \"19.382996,-99.198193\", \"mode\": \"walk\", \"sc\": \"19.398602,-99.21474\"}], \"price_pence\": 500, \"region\": \"mx-df\", \"start\": {\"address\": \"Av. Vasco De Quiroga #2000, Alvaro Obregon, DF\", \"coords\": \"19.377004,-99.251951\", \"name\": \"Televisa\"}, \"time\": \"2016-07-28T12:23:37-05:00/NOWISH\", \"version\": 2}",
+      "walk_seconds": 2745,
+      "legs": [
+        {
+          "arrival_time": "2016-07-28T12:25:53-05:00",
+          "shape": [
+            [
+              19.377401,
+              -99.252078
+            ],
+            [
+              19.377568,
+              -99.25149
+            ],
+            [
+              19.37749,
+              -99.251465
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 136,
+          "distance_meters": 183,
+          "departure_time": "2016-07-28T12:23:37-05:00"
+        },
+        {
+          "platform_description": "Metro Balderas",
+          "stops": [
+            {
+              "coords": [
+                19.37749,
+                -99.251465
+              ],
+              "name": "Avenida Vasco de Quiroga - Acceso a Televisa",
+              "id": "DFStop_AvenidaVascoDeQuirogaAccesoATelevisa_NE"
+            },
+            {
+              "duration_seconds_to_here": 57,
+              "coords": [
+                19.3783,
+                -99.24948
+              ],
+              "name": "Avenida Vasco de Quiroga - Colonia Madrazo",
+              "id": "DFStop_AvenidaVascoDeQuirogaColoniaMadrazo_NE"
+            },
+            {
+              "duration_seconds_to_here": 134,
+              "coords": [
+                19.379039,
+                -99.248396
+              ],
+              "name": "Avenida Vasco De Quiroga - Glorieta",
+              "id": "DFStop_AvenidaVascoDeQuirogaGlorieta_NW"
+            },
+            {
+              "duration_seconds_to_here": 322,
+              "coords": [
+                19.386306,
+                -99.243246
+              ],
+              "name": "Prolongación Paseo De La Reforma - Puente Conafrut",
+              "id": "DFStop_ProlongacionPaseoDeLaReformaPuenteConafrut_NE"
+            },
+            {
+              "duration_seconds_to_here": 501,
+              "coords": [
+                19.39342,
+                -99.237131
+              ],
+              "name": "Avenida Constituyentes - Frente a Grupo Radio Centro",
+              "id": "DFStop_AvenidaConstituyentesFrenteAGrupoRadioCentro_NE"
+            },
+            {
+              "duration_seconds_to_here": 702,
+              "coords": [
+                19.395657,
+                -99.227228
+              ],
+              "name": "Avenida Constituyentes - Cerrada Constituyentes",
+              "id": "DFStop_AvenidaConstituyentesCerradaConstituyentes_E"
+            },
+            {
+              "duration_seconds_to_here": 800,
+              "coords": [
+                19.395788,
+                -99.223194
+              ],
+              "name": "Avenida Constituyentes - Estado Mayor Presidencial",
+              "id": "DFStop_AvenidaConstituyentesEstadoMayorPresidencial_E"
+            },
+            {
+              "duration_seconds_to_here": 941,
+              "coords": [
+                19.397903,
+                -99.216714
+              ],
+              "name": "Avenida Constituyentes - Secretaría De Hacienda",
+              "id": "DFStop_AvenidaConstituyentesSecretariaDeHacienda_E"
+            },
+            {
+              "duration_seconds_to_here": 1011,
+              "coords": [
+                19.398602,
+                -99.21474
+              ],
+              "name": "Avenida Constituyentes - Vocacional 4",
+              "id": "DFStop_AvenidaConstituyentesVocacional4_NE"
+            }
+          ],
+          "arrival_time": "2016-07-28T12:46:48-05:00",
+          "shape": [
+            [
+              19.37749,
+              -99.251465
+            ],
+            [
+              19.377555,
+              -99.251488
+            ],
+            [
+              19.37757,
+              -99.25144
+            ],
+            [
+              19.3783,
+              -99.24948
+            ],
+            [
+              19.37843,
+              -99.24896
+            ],
+            [
+              19.3782,
+              -99.24854
+            ],
+            [
+              19.37834,
+              -99.24809
+            ],
+            [
+              19.37888,
+              -99.24807
+            ],
+            [
+              19.37906,
+              -99.248382
+            ],
+            [
+              19.37914,
+              -99.24852
+            ],
+            [
+              19.37934,
+              -99.24881
+            ],
+            [
+              19.38089,
+              -99.24924
+            ],
+            [
+              19.38137,
+              -99.24922
+            ],
+            [
+              19.38187,
+              -99.24884
+            ],
+            [
+              19.38372,
+              -99.24642
+            ],
+            [
+              19.38465,
+              -99.24454
+            ],
+            [
+              19.38518,
+              -99.24402
+            ],
+            [
+              19.386339,
+              -99.243305
+            ],
+            [
+              19.38638,
+              -99.24328
+            ],
+            [
+              19.38689,
+              -99.24276
+            ],
+            [
+              19.38775,
+              -99.24145
+            ],
+            [
+              19.3888,
+              -99.23989
+            ],
+            [
+              19.38949,
+              -99.23936
+            ],
+            [
+              19.39142,
+              -99.23875
+            ],
+            [
+              19.39273,
+              -99.23861
+            ],
+            [
+              19.39347,
+              -99.23774
+            ],
+            [
+              19.393517,
+              -99.23714
+            ],
+            [
+              19.39353,
+              -99.23698
+            ],
+            [
+              19.39349,
+              -99.23615
+            ],
+            [
+              19.39393,
+              -99.23479
+            ],
+            [
+              19.39483,
+              -99.23267
+            ],
+            [
+              19.39481,
+              -99.23131
+            ],
+            [
+              19.39532,
+              -99.22947
+            ],
+            [
+              19.395748,
+              -99.227248
+            ],
+            [
+              19.39556,
+              -99.22491
+            ],
+            [
+              19.395883,
+              -99.223214
+            ],
+            [
+              19.39591,
+              -99.22307
+            ],
+            [
+              19.39713,
+              -99.21941
+            ],
+            [
+              19.397987,
+              -99.216744
+            ],
+            [
+              19.39803,
+              -99.21661
+            ],
+            [
+              19.398639,
+              -99.214754
+            ],
+            [
+              19.398602,
+              -99.21474
+            ]
+          ],
+          "frequency": {
+            "headway_seconds": 300,
+            "duration_seconds": 1011
+          },
+          "mode": "transit",
+          "routes": [
+            {
+              "display_name": "Ecobús L1",
+              "color": "#63be49",
+              "ui_color": "#63be49",
+              "brand_id": "RTPBus",
+              "affinities": [
+                "bus"
+              ],
+              "live_request_types": [
+                "busstop"
+              ],
+              "id": "RTPBus34A"
+            }
+          ],
+          "departure_time": "2016-07-28T12:29:57-05:00"
+        },
+        {
+          "arrival_time": "2016-07-28T13:30:17-05:00",
+          "shape": [
+            [
+              19.398602,
+              -99.21474
+            ],
+            [
+              19.398665,
+              -99.21477
+            ],
+            [
+              19.398964,
+              -99.214066
+            ],
+            [
+              19.399048,
+              -99.21389
+            ],
+            [
+              19.398716,
+              -99.213806
+            ],
+            [
+              19.398516,
+              -99.213768
+            ],
+            [
+              19.398256,
+              -99.213707
+            ],
+            [
+              19.39806,
+              -99.213661
+            ],
+            [
+              19.397951,
+              -99.213463
+            ],
+            [
+              19.397837,
+              -99.213264
+            ],
+            [
+              19.397732,
+              -99.212349
+            ],
+            [
+              19.397703,
+              -99.212273
+            ],
+            [
+              19.397663,
+              -99.212143
+            ],
+            [
+              19.397655,
+              -99.21209
+            ],
+            [
+              19.397642,
+              -99.211998
+            ],
+            [
+              19.397434,
+              -99.211235
+            ],
+            [
+              19.397297,
+              -99.210693
+            ],
+            [
+              19.397247,
+              -99.210518
+            ],
+            [
+              19.396973,
+              -99.20961
+            ],
+            [
+              19.396902,
+              -99.209361
+            ],
+            [
+              19.396441,
+              -99.207741
+            ],
+            [
+              19.396299,
+              -99.207794
+            ],
+            [
+              19.39616,
+              -99.207878
+            ],
+            [
+              19.396011,
+              -99.208038
+            ],
+            [
+              19.39588,
+              -99.208199
+            ],
+            [
+              19.395836,
+              -99.208031
+            ],
+            [
+              19.395824,
+              -99.207489
+            ],
+            [
+              19.395807,
+              -99.206978
+            ],
+            [
+              19.395464,
+              -99.205795
+            ],
+            [
+              19.395412,
+              -99.205589
+            ],
+            [
+              19.39521,
+              -99.204834
+            ],
+            [
+              19.395176,
+              -99.204697
+            ],
+            [
+              19.395147,
+              -99.204491
+            ],
+            [
+              19.395063,
+              -99.204224
+            ],
+            [
+              19.394804,
+              -99.20385
+            ],
+            [
+              19.394648,
+              -99.20369
+            ],
+            [
+              19.39448,
+              -99.203568
+            ],
+            [
+              19.394272,
+              -99.2034
+            ],
+            [
+              19.394209,
+              -99.203339
+            ],
+            [
+              19.394104,
+              -99.203087
+            ],
+            [
+              19.394079,
+              -99.203041
+            ],
+            [
+              19.393711,
+              -99.202843
+            ],
+            [
+              19.393328,
+              -99.202621
+            ],
+            [
+              19.392694,
+              -99.202278
+            ],
+            [
+              19.392099,
+              -99.201889
+            ],
+            [
+              19.391855,
+              -99.20208
+            ],
+            [
+              19.391603,
+              -99.202179
+            ],
+            [
+              19.3913,
+              -99.202255
+            ],
+            [
+              19.39102,
+              -99.202271
+            ],
+            [
+              19.390871,
+              -99.202263
+            ],
+            [
+              19.390762,
+              -99.202209
+            ],
+            [
+              19.390722,
+              -99.202095
+            ],
+            [
+              19.390743,
+              -99.202019
+            ],
+            [
+              19.390802,
+              -99.201942
+            ],
+            [
+              19.390871,
+              -99.201912
+            ],
+            [
+              19.390656,
+              -99.201874
+            ],
+            [
+              19.390516,
+              -99.201805
+            ],
+            [
+              19.390471,
+              -99.201782
+            ],
+            [
+              19.390371,
+              -99.201729
+            ],
+            [
+              19.389364,
+              -99.200966
+            ],
+            [
+              19.389241,
+              -99.200879
+            ],
+            [
+              19.389223,
+              -99.200867
+            ],
+            [
+              19.38858,
+              -99.200432
+            ],
+            [
+              19.388533,
+              -99.200401
+            ],
+            [
+              19.387756,
+              -99.199821
+            ],
+            [
+              19.387196,
+              -99.199455
+            ],
+            [
+              19.386875,
+              -99.199295
+            ],
+            [
+              19.386564,
+              -99.199181
+            ],
+            [
+              19.386456,
+              -99.19915
+            ],
+            [
+              19.386358,
+              -99.19915
+            ],
+            [
+              19.385109,
+              -99.199333
+            ],
+            [
+              19.384869,
+              -99.199341
+            ],
+            [
+              19.38468,
+              -99.199303
+            ],
+            [
+              19.384275,
+              -99.19915
+            ],
+            [
+              19.384024,
+              -99.199097
+            ],
+            [
+              19.383928,
+              -99.199097
+            ],
+            [
+              19.383793,
+              -99.199112
+            ],
+            [
+              19.383644,
+              -99.199112
+            ],
+            [
+              19.382902,
+              -99.199333
+            ],
+            [
+              19.38274,
+              -99.19931
+            ],
+            [
+              19.382647,
+              -99.199181
+            ],
+            [
+              19.382996,
+              -99.198193
+            ]
+          ],
+          "mode": "walk",
+          "duration_seconds": 2609,
+          "distance_meters": 3100,
+          "departure_time": "2016-07-28T12:46:48-05:00"
+        }
+      ]
+    }
+  ]
+}
